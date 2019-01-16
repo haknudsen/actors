@@ -20,25 +20,30 @@
 <body>
 	<?php include("includes/nav.php"); ?>
 	<section class="jumbotron">
-		<h1 class="text-center">Spokesmen Carousel</h1>
-		<?php $spokespeople = "maleactors"; include("../ivideo/showActorsDemo.php"); ?>
+		<h1 class="text-center">Talking Heads<i class="far fa-registered sup"></i> Spokesmen</h1>
+		<div class="container">
+			<?php $spokespeople = "maleactors"; include("../ivideo/showActorsDemo.php"); ?>
+		</div>
 	</section>
-	<section class="container">
-		<div class="row">
-			<div class="col-lg-6">
+	<section class="container-fluid bg-white">
+		<div class="container">
+			<div class="card middle">
+				<h3 class="card-header bg-gradient-mine text-center text-white">Professional <em>Spokespeople</em></h3>
 				<?php $video="Professional Spokespeople";$alt="Some of our Professional Spokespeople"; include("../ivideo/showInline.php"); ?>
-			</div>
-			<div class="col-lg-6">
-				<p>Our spokesperson video uses mp4 and canvas for transparent effect on computers and devices. As trusted by 1000+ businesses for:</p>
-				<ul>
-					<li>Providing Professional Actors And Actresses </li>
-					<li>Informational Whiteboard</li>
-					<li>Animation Videos</li>
-					<li>Excellent Technical Support</li>
-					<li>Spokesperson Video</li>
-				</ul>
-				<p>Web developers know us best for Developing top-notch, high resolution, and spokesperson video. Customized website spokespersons video suited for various needs. Easy installation and integration. Also optimized for mobile devices.</p>
-				<p>Your Website Spokesperson comes with the most robust, free, copyrighted player on the market today. No one has over 30 variable features included free.</p>
+				<div class="card-body">
+					<p class="card-text">Our spokesperson video uses mp4 and canvas for transparent effect on computers and devices. As trusted by 1000+ businesses for:</p>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">Providing Professional Actors And Actresses </li>
+						<li class="list-group-item">Informational Whiteboard</li>
+						<li class="list-group-item">Animation Videos</li>
+						<li class="list-group-item">Excellent Technical Support</li>
+						<li class="list-group-item">Spokesperson Video</li>
+					</ul>
+					<p class="card-text">Web developers know us best for Developing top-notch, high resolution, and spokesperson video. Customized website spokespersons video suited for various needs. Easy installation and integration. Also optimized for mobile devices.</p>
+					<p class="card-text">Your Website Spokesperson comes with the most robust, free, copyrighted player on the market today. No one has over 30 variable features included free.</p>
+				</div>
+				<div class="card-footer text-muted bg-gradient-mine text-right"><a href="../spokespeople/" title="Spokespeople"><em>More...</em></a>
+				</div>
 			</div>
 		</div>
 	</section>

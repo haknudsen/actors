@@ -38,3 +38,4 @@ background: linear-gradient(to bottom, #66AAFF 0%, #256ABF 100%);   /* W3C */
 .card-footer:last-child { border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px); }
 .card-img { width: 100%; border-radius: calc(0.25rem - 1px); }
 .card-img-top { width: 100%; border-top-left-radius: calc(0.25rem - 1px); border-top-right-radius: calc(0.25rem - 1px); }
+.sup{font-size: .6rem;vertical-align: super;}

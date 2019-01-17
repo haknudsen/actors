@@ -33,7 +33,7 @@
 				<div class="card-body">
 					<p class="card-text">Our spokesperson video uses mp4 and canvas for transparent effect on computers and devices. As trusted by 1000+ businesses for:</p>
 					<ul class="list-group list-group-flush">
-						<li class="list-group-item">Providing Professional Actors And Actresses </li>
+						<li class="list-group-item">Professional Spokespeople</li>
 						<li class="list-group-item">Informational Whiteboard</li>
 						<li class="list-group-item">Animation Videos</li>
 						<li class="list-group-item">Excellent Technical Support</li>
